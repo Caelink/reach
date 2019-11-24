@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct EventCarouselView: View {
-    let events: [EventDataProvider.EventInfo]
+    let events: [Events.Info]
     
     func format(time: Date) -> String {
         return "Thursday, 7:00pm"
@@ -18,7 +18,7 @@ struct EventCarouselView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: true) {
             HStack(spacing: 20) {
-                ForEach(events) { (event: EventDataProvider.EventInfo) in
+                ForEach(events) { (event) in
                     VStack(alignment: .leading) {
                         Text(event.title)
                             .font(.title)
@@ -38,13 +38,13 @@ struct EventCarouselView: View {
         }
     }
     
-    init(events: [EventDataProvider.EventInfo]) {
+    init(events: [Events.Info]) {
         self.events = events
     }
 }
 
 struct EventCarouselView_Previews: PreviewProvider {
     static var previews: some View {
-        EventCarouselView(events: EventDataProvider.events(matching: .nearby))
+        EventCarouselView(events: Events.events(matching: .nearby))
     }
 }

@@ -9,12 +9,12 @@
 import SwiftUI
 
 struct HomeView: View {
-    let sections: [HomeDataProvider.SectionInfo] = HomeDataProvider.sections
+    let sections: [Home.SectionInfo] = Home.sections
     
     var body: some View {
         ScrollView() {
             VStack() {
-                ForEach(sections) { (section) in
+                ForEach(sections) { (section: Home.SectionInfo) in
                     VStack(alignment: .leading) {
                         Text(section.title)
                             .font(.title)

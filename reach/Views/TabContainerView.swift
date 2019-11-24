@@ -10,9 +10,9 @@ import SwiftUI
 
 struct TabContainerView: View {
     @State private var selection = 0
-    private var tabs: [TabDataProvider.TabInfo] = TabDataProvider.tabs
+    private var tabs: [Tabs.Info] = Tabs.tabs
     
-    func view(for selection: TabDataProvider.Tab) -> some View {
+    func view(for selection: Tabs.Tab) -> some View {
         switch selection {
         case .home:
             return AnyView(HomeView())
@@ -21,7 +21,7 @@ struct TabContainerView: View {
         case .friends:
             return AnyView(Text(selection.rawValue))
         case .inbox:
-            return AnyView(MessageListView(showing: MessageDataProvider.conversations))
+            return AnyView(MessageListView(showing: Conversations.conversations))
         case .profile:
             return AnyView(Text(selection.rawValue))
         }

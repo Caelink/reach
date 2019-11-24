@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct MessageListItem: View {
-    @State var conversation: MessageDataProvider.ConversationInfo
+    @State var conversation: Conversations.Info
     
     func format(time: Date) -> String {
         let formatter = DateFormatter()
@@ -40,6 +40,7 @@ struct MessageListItem: View {
                 Text(conversation.preview)
                     .font(.subheadline)
                     .lineLimit(2)
+                Spacer()
             }
             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
             .padding(5)
@@ -49,6 +50,6 @@ struct MessageListItem: View {
 
 struct MessageListItem_Previews: PreviewProvider {
     static var previews: some View {
-        MessageListItem(conversation: MessageDataProvider.conversations[5])
+        MessageListItem(conversation: Conversations.conversations[5])
     }
 }

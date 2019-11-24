@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct MessageListView: View {
-    @State var conversations: [MessageDataProvider.ConversationInfo] = []
+    @State var conversations: [Conversations.Info] = []
 
     var body: some View {
         List() {
@@ -19,13 +19,13 @@ struct MessageListView: View {
         }
     }
     
-    init(showing conversations: [MessageDataProvider.ConversationInfo]) {
+    init(showing conversations: [Conversations.Info]) {
         _conversations = State(initialValue: conversations)
     }
 }
 
 struct MessageListView_Previews: PreviewProvider {
     static var previews: some View {
-        MessageListView(showing: MessageDataProvider.conversations)
+        MessageListView(showing: Conversations.conversations)
     }
 }
