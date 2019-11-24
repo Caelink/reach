@@ -19,6 +19,10 @@
 		0D6FC8112389F64200B77E7E /* HomeDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC8102389F64200B77E7E /* HomeDataProvider.swift */; };
 		0D6FC8132389F7BD00B77E7E /* EventDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC8122389F7BD00B77E7E /* EventDataProvider.swift */; };
 		0D6FC8152389FEE300B77E7E /* EventCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC8142389FEE300B77E7E /* EventCarouselView.swift */; };
+		0D6FC817238A645100B77E7E /* MessageListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC816238A645100B77E7E /* MessageListItem.swift */; };
+		0D6FC819238A666A00B77E7E /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC818238A666A00B77E7E /* MessageListView.swift */; };
+		0D6FC81B238A66A500B77E7E /* MessageDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC81A238A66A500B77E7E /* MessageDataProvider.swift */; };
+		0D6FC81D238A9EA200B77E7E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FC81C238A9EA200B77E7E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		0D6FC8102389F64200B77E7E /* HomeDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataProvider.swift; sourceTree = "<group>"; };
 		0D6FC8122389F7BD00B77E7E /* EventDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDataProvider.swift; sourceTree = "<group>"; };
 		0D6FC8142389FEE300B77E7E /* EventCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCarouselView.swift; sourceTree = "<group>"; };
+		0D6FC816238A645100B77E7E /* MessageListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListItem.swift; sourceTree = "<group>"; };
+		0D6FC818238A666A00B77E7E /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
+		0D6FC81A238A66A500B77E7E /* MessageDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDataProvider.swift; sourceTree = "<group>"; };
+		0D6FC81C238A9EA200B77E7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = reach/README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,7 @@
 		0D6FC7F32383589D00B77E7E /* reach */ = {
 			isa = PBXGroup;
 			children = (
+				0D6FC81C238A9EA200B77E7E /* README.md */,
 				0D6FC80B23836E5200B77E7E /* Data */,
 				0D6FC80A23836E4600B77E7E /* Views */,
 				0D6FC7F42383589D00B77E7E /* AppDelegate.swift */,
@@ -94,6 +103,8 @@
 				0D6FC808238358F200B77E7E /* CarouselItemView.swift */,
 				0D6FC8142389FEE300B77E7E /* EventCarouselView.swift */,
 				0D6FC80E2389F5A100B77E7E /* HomeView.swift */,
+				0D6FC816238A645100B77E7E /* MessageListItem.swift */,
+				0D6FC818238A666A00B77E7E /* MessageListView.swift */,
 				0D6FC7F82383589D00B77E7E /* TabContainerView.swift */,
 			);
 			path = Views;
@@ -105,6 +116,7 @@
 				0D6FC80C23836E7800B77E7E /* TabDataProvider.swift */,
 				0D6FC8102389F64200B77E7E /* HomeDataProvider.swift */,
 				0D6FC8122389F7BD00B77E7E /* EventDataProvider.swift */,
+				0D6FC81A238A66A500B77E7E /* MessageDataProvider.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -169,6 +181,7 @@
 			files = (
 				0D6FC801238358A200B77E7E /* LaunchScreen.storyboard in Resources */,
 				0D6FC7FE238358A200B77E7E /* Preview Assets.xcassets in Resources */,
+				0D6FC81D238A9EA200B77E7E /* README.md in Resources */,
 				0D6FC7FB238358A200B77E7E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,11 +197,14 @@
 				0D6FC8132389F7BD00B77E7E /* EventDataProvider.swift in Sources */,
 				0D6FC7F72383589D00B77E7E /* SceneDelegate.swift in Sources */,
 				0D6FC80D23836E7800B77E7E /* TabDataProvider.swift in Sources */,
+				0D6FC817238A645100B77E7E /* MessageListItem.swift in Sources */,
 				0D6FC80F2389F5A100B77E7E /* HomeView.swift in Sources */,
+				0D6FC81B238A66A500B77E7E /* MessageDataProvider.swift in Sources */,
 				0D6FC809238358F200B77E7E /* CarouselItemView.swift in Sources */,
 				0D6FC8152389FEE300B77E7E /* EventCarouselView.swift in Sources */,
 				0D6FC7F92383589D00B77E7E /* TabContainerView.swift in Sources */,
 				0D6FC8112389F64200B77E7E /* HomeDataProvider.swift in Sources */,
+				0D6FC819238A666A00B77E7E /* MessageListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

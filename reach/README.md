@@ -5,7 +5,7 @@ This repository is a Prototype for my Human Computer Interaction course, cs449.
 
 ## Home Screen
 - [x] Home Title
-- [ ] Pull to Reveal search bar
+- [x] Search primary action
 - [x] Simple Carousels using a Event Info Tile
 
 Event Info Tile:
@@ -17,18 +17,18 @@ Event Info Tile:
 - [ ] If any attendees are friends, show their heads at the bottom in a horizontal list
 
 ## Tabs
-- [ ] Primary action is a right action item on the nav bar, which is enabled
+- [x] Primary action is a right action item on the nav bar, which is enabled
 
 ## Inbox Tab
-- [ ] Navigation bar title
-- [ ] Write New Message primary action
-- [ ] List of Conversation Summary Tiles
+- [x] Navigation bar title
+- [x] Write New Message primary action
+- [x] List of Conversation Summary Tiles
 
 Conversation Summary Tiles
-- [ ] Profile Picture
-- [ ] Bolded Name (1 line)
-- [ ] Light weight timestamp to the right
-- [ ] Conversation Preview (2 lines)
+- [x] Profile Picture
+- [x] Bolded Name (1 line)
+- [x] Light weight timestamp to the right
+- [x] Conversation Preview (2 lines)
 
 ## Profile Tab
 - [ ] Profile Picture with 'change' hinting text

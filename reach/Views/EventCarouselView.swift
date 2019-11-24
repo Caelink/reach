@@ -18,7 +18,7 @@ struct EventCarouselView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: true) {
             HStack(spacing: 20) {
-                ForEach(events) { (event) in
+                ForEach(events) { (event: EventDataProvider.EventInfo) in
                     VStack(alignment: .leading) {
                         Text(event.title)
                             .font(.title)
@@ -30,7 +30,7 @@ struct EventCarouselView: View {
                             .font(.subheadline)
                     }
                     .frame(width: 250, height: 200)
-                    .background(Color.blue)
+                    .background(Color.orange)
                     .cornerRadius(5)
                 }
             }

@@ -17,11 +17,11 @@ struct TabContainerView: View {
         case .home:
             return AnyView(HomeView())
         case .discover:
-            fallthrough
+            return AnyView(Text(selection.rawValue))
         case .friends:
-            fallthrough
+            return AnyView(Text(selection.rawValue))
         case .inbox:
-            fallthrough
+            return AnyView(MessageListView(showing: MessageDataProvider.conversations))
         case .profile:
             return AnyView(Text(selection.rawValue))
         }
@@ -42,6 +42,13 @@ struct TabContainerView: View {
                 }
             }
             .navigationBarTitle(tabs[selection].title)
+            .navigationBarItems(trailing: Group {
+                if tabs[selection].action != nil {
+                    Image(systemName: tabs[selection].action!)
+                        .foregroundColor(.orange)
+                } else {
+                    Text("None").hidden()
+                }})
         }
     }
 }

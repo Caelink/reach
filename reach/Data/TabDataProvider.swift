@@ -21,6 +21,7 @@ struct TabDataProvider {
         public var tab: Tab
         public var title: String
         public var image: String
+        public var action: String?
     }
     
     private static func info(for tab: Tab) -> TabInfo {
@@ -28,7 +29,8 @@ struct TabDataProvider {
         case .home:
             return TabInfo(tab: tab,
                            title: "Home",
-                           image: "house")
+                           image: "house",
+                           action: "magnifyingglass")
         case .discover:
             return TabInfo(tab: tab,
                            title: "Discover",
@@ -40,11 +42,13 @@ struct TabDataProvider {
         case .inbox:
             return TabInfo(tab: tab,
                            title: "Inbox",
-                           image: "bubble.left.and.bubble.right")
+                           image: "bubble.left.and.bubble.right",
+                           action: "square.and.pencil")
         case .profile:
             return TabInfo(tab: tab,
                            title: "Profile",
-                           image: "person.crop.circle")
+                           image: "person.crop.circle",
+                           action: "pencil")
         }
     }
     
