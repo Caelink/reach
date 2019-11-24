@@ -43,7 +43,7 @@
 		0D6FC816238A645100B77E7E /* MessageListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListItem.swift; sourceTree = "<group>"; };
 		0D6FC818238A666A00B77E7E /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		0D6FC81A238A66A500B77E7E /* MessageDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDataProvider.swift; sourceTree = "<group>"; };
-		0D6FC81C238A9EA200B77E7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = reach/README.md; sourceTree = SOURCE_ROOT; };
+		0D6FC81C238A9EA200B77E7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +60,7 @@
 		0D6FC7E82383589D00B77E7E = {
 			isa = PBXGroup;
 			children = (
+				0D6FC81C238A9EA200B77E7E /* README.md */,
 				0D6FC7F32383589D00B77E7E /* reach */,
 				0D6FC7F22383589D00B77E7E /* Products */,
 			);
@@ -76,7 +77,6 @@
 		0D6FC7F32383589D00B77E7E /* reach */ = {
 			isa = PBXGroup;
 			children = (
-				0D6FC81C238A9EA200B77E7E /* README.md */,
 				0D6FC80B23836E5200B77E7E /* Data */,
 				0D6FC80A23836E4600B77E7E /* Views */,
 				0D6FC7F42383589D00B77E7E /* AppDelegate.swift */,
