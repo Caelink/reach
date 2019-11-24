@@ -1,7 +1,7 @@
 # reach
 This repository is a Prototype for my Human Computer Interaction course, cs449.
 
-#Component Analysis
+# Component Analysis
 ------------------
 
 ## Home Screen
