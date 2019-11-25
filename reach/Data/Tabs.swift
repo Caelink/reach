@@ -38,7 +38,8 @@ struct Tabs {
         case .friends:
             return Info(tab: tab,
                         title: "Friends",
-                        image: "person.3")
+                        image: "person.3",
+                        action: "plus")
         case .inbox:
             return Info(tab: tab,
                         title: "Inbox",

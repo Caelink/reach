@@ -30,6 +30,21 @@ Conversation Summary Tiles
 - [x] Light weight timestamp to the right
 - [x] Conversation Preview (2 lines)
 
+## Friends Tab
+- [x] Nav bar title
+- [x] Plus button primary action
+- [ ] Edit button primary action
+- [ ] Pull to reveal Search bar
+- [x] List of Friend attending event items
+
+Friend Attending Event Item
+- [x] Friend's profile picture
+- [x] Friend's Name headline
+- [x] Rounded rectangle outlining event details
+- [x] Event Title bolded (1 line)
+- [x] Event time (1 line)
+- [ ] Event Image to right (dunno what to use here)
+
 ## Profile Tab
 - [ ] Profile Picture with 'change' hinting text
 - [ ] Heading weight name
