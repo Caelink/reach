@@ -19,7 +19,7 @@ struct TabContainerView: View {
         case .discover:
             return AnyView(Text(selection.rawValue))
         case .friends:
-            return AnyView(Text(selection.rawValue))
+            return AnyView(FriendEventListView(pairings: Events.events(for: Friends.people)))
         case .inbox:
             return AnyView(MessageListView(showing: Conversations.conversations))
         case .profile:
