@@ -11,29 +11,15 @@ import SwiftUI
 struct MessageListItem: View {
     @State var conversation: Conversations.Info
     
-    func format(time: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .none
-        formatter.timeStyle = .medium
-        return formatter.string(from: time)
-    }
-    
     var body: some View {
         HStack() {
-            Image(conversation.image)
-                .resizable()
-                .clipShape(Circle())
-                .frame(width: 50.0, height: 50.0)
-                .overlay(
-                    Circle()
-                        .stroke(Color.white,lineWidth:4)
-                        .shadow(radius: 5))
+            ProfileView(showing: conversation.image)
             VStack(alignment: .leading) {
                 HStack() {
                     Text(conversation.name)
                         .font(.headline)
                     Spacer()
-                    Text(self.format(time: conversation.lastUpdate))
+                    Text(Events.string(for: conversation.lastUpdate, in: .timeonly))
                         .font(.callout)
                         .foregroundColor(.gray)
                 }

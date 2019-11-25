@@ -13,7 +13,6 @@
 		0D6FC7FB238358A200B77E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FC7FA238358A200B77E7E /* Assets.xcassets */; };
 		0D6FC7FE238358A200B77E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FC7FD238358A200B77E7E /* Preview Assets.xcassets */; };
 		0D6FC801238358A200B77E7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FC7FF238358A200B77E7E /* LaunchScreen.storyboard */; };
-		0D6FC809238358F200B77E7E /* CarouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC808238358F200B77E7E /* CarouselItemView.swift */; };
 		0D6FC80D23836E7800B77E7E /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC80C23836E7800B77E7E /* Tabs.swift */; };
 		0D6FC80F2389F5A100B77E7E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC80E2389F5A100B77E7E /* HomeView.swift */; };
 		0D6FC8112389F64200B77E7E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC8102389F64200B77E7E /* Home.swift */; };
@@ -23,6 +22,10 @@
 		0D6FC819238A666A00B77E7E /* MessageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC818238A666A00B77E7E /* MessageListView.swift */; };
 		0D6FC81B238A66A500B77E7E /* Conversations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6FC81A238A66A500B77E7E /* Conversations.swift */; };
 		0D6FC81D238A9EA200B77E7E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D6FC81C238A9EA200B77E7E /* README.md */; };
+		0D92D096238C6FE800B44EEB /* Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92D095238C6FE800B44EEB /* Friends.swift */; };
+		0D92D098238C721500B44EEB /* FriendEventInterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92D097238C721500B44EEB /* FriendEventInterestView.swift */; };
+		0D92D09A238C775E00B44EEB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92D099238C775E00B44EEB /* ProfileView.swift */; };
+		0D92D09C238C801600B44EEB /* FriendEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92D09B238C801600B44EEB /* FriendEventListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +37,6 @@
 		0D6FC7FD238358A200B77E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D6FC800238358A200B77E7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D6FC802238358A200B77E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D6FC808238358F200B77E7E /* CarouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItemView.swift; sourceTree = "<group>"; };
 		0D6FC80C23836E7800B77E7E /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 		0D6FC80E2389F5A100B77E7E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0D6FC8102389F64200B77E7E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -44,6 +46,10 @@
 		0D6FC818238A666A00B77E7E /* MessageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListView.swift; sourceTree = "<group>"; };
 		0D6FC81A238A66A500B77E7E /* Conversations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversations.swift; sourceTree = "<group>"; };
 		0D6FC81C238A9EA200B77E7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0D92D095238C6FE800B44EEB /* Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friends.swift; sourceTree = "<group>"; };
+		0D92D097238C721500B44EEB /* FriendEventInterestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendEventInterestView.swift; sourceTree = "<group>"; };
+		0D92D099238C775E00B44EEB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		0D92D09B238C801600B44EEB /* FriendEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendEventListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +106,13 @@
 		0D6FC80A23836E4600B77E7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0D6FC808238358F200B77E7E /* CarouselItemView.swift */,
 				0D6FC8142389FEE300B77E7E /* EventCarouselView.swift */,
 				0D6FC80E2389F5A100B77E7E /* HomeView.swift */,
 				0D6FC816238A645100B77E7E /* MessageListItem.swift */,
 				0D6FC818238A666A00B77E7E /* MessageListView.swift */,
+				0D92D097238C721500B44EEB /* FriendEventInterestView.swift */,
+				0D92D09B238C801600B44EEB /* FriendEventListView.swift */,
+				0D92D099238C775E00B44EEB /* ProfileView.swift */,
 				0D6FC7F82383589D00B77E7E /* TabContainerView.swift */,
 			);
 			path = Views;
@@ -113,10 +121,11 @@
 		0D6FC80B23836E5200B77E7E /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				0D6FC80C23836E7800B77E7E /* Tabs.swift */,
+				0D6FC81A238A66A500B77E7E /* Conversations.swift */,
 				0D6FC8102389F64200B77E7E /* Home.swift */,
 				0D6FC8122389F7BD00B77E7E /* Events.swift */,
-				0D6FC81A238A66A500B77E7E /* Conversations.swift */,
+				0D92D095238C6FE800B44EEB /* Friends.swift */,
+				0D6FC80C23836E7800B77E7E /* Tabs.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -199,11 +208,14 @@
 				0D6FC80D23836E7800B77E7E /* Tabs.swift in Sources */,
 				0D6FC817238A645100B77E7E /* MessageListItem.swift in Sources */,
 				0D6FC80F2389F5A100B77E7E /* HomeView.swift in Sources */,
+				0D92D098238C721500B44EEB /* FriendEventInterestView.swift in Sources */,
 				0D6FC81B238A66A500B77E7E /* Conversations.swift in Sources */,
-				0D6FC809238358F200B77E7E /* CarouselItemView.swift in Sources */,
+				0D92D096238C6FE800B44EEB /* Friends.swift in Sources */,
 				0D6FC8152389FEE300B77E7E /* EventCarouselView.swift in Sources */,
+				0D92D09C238C801600B44EEB /* FriendEventListView.swift in Sources */,
 				0D6FC7F92383589D00B77E7E /* TabContainerView.swift in Sources */,
 				0D6FC8112389F64200B77E7E /* Home.swift in Sources */,
+				0D92D09A238C775E00B44EEB /* ProfileView.swift in Sources */,
 				0D6FC819238A666A00B77E7E /* MessageListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
